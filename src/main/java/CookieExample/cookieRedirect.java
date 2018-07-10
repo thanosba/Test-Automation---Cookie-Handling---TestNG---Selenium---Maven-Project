@@ -47,9 +47,9 @@ public class cookieRedirect {
         }catch(Exception ex){
             ex.printStackTrace();
         }
-        //driver.get("https://github.com/");
         driver.get("https://github.com");
-
+        driver.close();
+        driver.quit();
     }
 }
 
