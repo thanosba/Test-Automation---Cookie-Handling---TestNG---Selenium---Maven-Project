@@ -15,7 +15,6 @@ public class getCookies {
         WebDriver driver;
        	System.setProperty("webdriver.chrome.driver","/Users/thanosbabalas/Desktop/cookiehandlingapp/src/main/resources/chromedriver");
         driver=new ChromeDriver();
-        //driver.get("http://github.com/login");
         driver.get("https://github.com/login");
 
 
